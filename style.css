@@ -1,0 +1,42 @@
+body {
+    background-color: aliceblue;
+
+}
+
+.parent {
+    border: .2rem solid black;
+    box-sizing: border-box;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:;
+    align-items: ;
+    align-content: ;
+
+    
+}
+
+.item {
+    box-sizing: border-box;
+    border: .1rem solid black;
+    opacity: .9;
+    height: 6.2rem;
+    width: 6.2rem;
+
+}
+
+.item:first-child{
+    background-color: yellow;
+  
+}
+
+.item:nth-child(2){
+    background-color: blue;
+
+}
+
+.item:last-child{
+    background-color: red;
+    
+}
